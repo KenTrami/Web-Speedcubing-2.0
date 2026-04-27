@@ -8,6 +8,11 @@
 ## Metody pro složení 4x4-7x7
 - Redux
 - YAU
+## Užitečné timery a trainery:
+- Cs Timer
+- Twisty timer
+- Bestsiteever.net
+- CaidenLee.com
 ## Kontakt
 ## Profil
 - Přihlásit se
