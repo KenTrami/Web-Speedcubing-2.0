@@ -1,5 +1,4 @@
 # Web-Speedcubing-2.0
-# Struktura:
 # Hlavní stránka
 ## Metody pro složení 3x3
 - LBL
@@ -11,5 +10,5 @@
 - YAU
 ## Kontakt
 ## Profil
-- Přihlásit se  
-- Zaregistrovat se  
+- Přihlásit se
+- Zaregistrovat se
