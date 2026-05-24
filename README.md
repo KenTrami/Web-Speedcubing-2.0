@@ -13,11 +13,6 @@
 ## Metody pro složení kostek 4x4-7x7 - Vysvětlení principu metod a odkazy na Video Návody
 - Redux
 - YAU
-## Užitečné timery a trainery - Stručný popis stránky
-- Cs Timer
-- Twisty timer
-- Bestsiteever.net
-- CaidenLee.com
 ## Kontakt
 ## Profil
 - Přihlásit se
