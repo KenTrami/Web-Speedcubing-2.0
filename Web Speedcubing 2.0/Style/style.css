@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+/* ==== HLAVNÍ NADPIS ==== */
+.hlavninadpis{
+    background-color: #b6deff;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    font-size: 60px;
+
+
+}
+.podnadpis{
+    background-color: #b6deff;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    font-size: 50px;
+    justify-content: center;
+    align-self: center;
+}
+/* === Tlačítko pro kliknutí zpět === */
+
+.back{
+      background: #bde7ff;
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: #000000;
+  font-size: px;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+   text-decoration: none;
+
+}
+body{
+    background:linear-gradient(135deg, #334580, #ffffff); /*Gradient náklon 135°,*/
+    min-height:100vh;
+    padding:40px;
+}
+
+/* ===== KONTEJNER ===== */
+
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+}
+
+/* ===== KARTIČKA ===== */
+
+.item{
+    width:300px;
+    background:white;
+
+    border-radius:16px;
+    padding:20px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* === |Pozadí pro podstránky s hodně textem|===*/
+.bg{
+    width:auto;
+    height: auto;
+    background:white;
+
+    border-radius:16px;
+    padding:20px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+/* === |text na podstránkách|===*/
+.text
+{
+    font-size: 35px;
+}
+
+/* hover efekt */
+.item:hover{
+    transform:translateY(-6px);
+    box-shadow:0 12px 25px rgba(0,0,0,0.15);
+}
+
+/* ===== OBRÁZEK ===== */
+
+.item img{
+    width:100%;
+    height:160px;
+
+    object-fit:cover;
+    border-radius:10px;
+
+    background:#f0f0f0;
+}
+
+/* ===== NADPIS ===== */
+
+.item h1{
+    font-size:18px;
+    color:#222;
+    line-height:1.3;
+}
+
+/* ===== TEXT ===== */
+
+.item p{
+    color:#555;
+    line-height:1.6;
+}
+
+/* ===== ODKAZ ===== */
+
+.item a{
+    margin-top:auto;
+
+    text-decoration:none;
+    color:#5b3cc4;
+    font-weight:bold;
+    display:inline-block;
+}
+
+.item a:hover{
+    text-decoration:underline;
+}
