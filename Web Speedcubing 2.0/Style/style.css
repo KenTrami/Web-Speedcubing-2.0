@@ -21,8 +21,17 @@
     justify-content: center;
     align-self: center;
 }
+/* === Výběr náhodné podstránky === */
+.random{
+    background-color: #b6deff;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    font-size: 25px;
+    justify-content: center;
+    align-self: center;
+    
+}
 /* === Tlačítko pro kliknutí zpět === */
-
 .back{
       background: #b6deff;
   padding: 8px 14px;
@@ -135,18 +144,6 @@ body{
 .item a:hover{
     text-decoration:underline;
 }
-
-contact{
-    width: 400px;
-    margin: 80px auto;
-    padding: 30px;
-
-    background: rgba(255, 255, 255, 0.149);
-    border-radius: 20px;
-
-
-}
-
 .contact h2{
     text-align: center;
     margin-bottom: 20px;

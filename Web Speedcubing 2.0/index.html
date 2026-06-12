@@ -12,8 +12,7 @@
    <div> <h1 class="hlavninadpis">Speedcubing metody</h1>
     </div>
     </div>
-    
-<div class="container"><h1 class="podnadpis"><a class="back" href="Kontakt.html">Kontakt</a> </h1></div>
+<div class="container"><button class="random" onclick="nahodnaStranka()" type="button"><b>Přesměrovat na náhodnou podstránku</b></button></div>
 <div class="container">    
 <!-- ===|2x2 metody|=== -->
     <div class="item">
@@ -48,6 +47,43 @@
             - Yau</p>
         <a href="Bigcube_metody.html">Přejít na detail</a>
     </div>
-
+    <!-- ===|Kontakt|=== -->
+     <div class="item">
+    <img src="Style/kontakt.png" alt="kontakt">
+     <h1>Kontakt</h1>
+     <p>
+        - o mně <br>
+        - kontaktní formulář <br>
+        - kontaktní údaje na technickou podporu <br>
+        <a href="Kontakt.html">Přejít na detail</a>
+     </p>
+    </div>
+    <script>
+        function nahodnaStranka() {
+        
+            // seznam odkazů
+            const odkazy = [
+                "LBL.2x2.html",
+                "LBL3x3.html",
+                "Ortega.html",
+                "CLL.html",
+                "EG.html",
+                "BeginnerCFOP.html",
+                "CFOP.html",
+                "ZB.html",
+                "Redux.html",
+                "Yau.html",
+            ];
+        
+            // vygeneruje náhodné číslo
+            const nahodneCislo = Math.floor(Math.random() * odkazy.length);
+        
+            // vybere náhodný odkaz
+            const vybranyOdkaz = odkazy[nahodneCislo];
+        
+            // přesměrování
+            window.location.href = vybranyOdkaz;
+        }
+        </script>
 </body>
 </html>
